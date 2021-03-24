@@ -1,0 +1,29 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(baseZexal.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox .back, .xbox .start {
+    background: url(start-selectZexal.png);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(stickZexal.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.xbox .face {
+    background: url(dpadZexal.png));
+    position: absolute;
+    opacity: 0;
+}
